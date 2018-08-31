@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.gmail.ivanjermakov1'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'net.htmlparser.jericho', name: 'jericho-html', version: '3.3'
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.8.3'
+}
